@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>KmaOoad.Coding._201</RootNamespace>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="Settings.fs" />
+    <Compile Include="IUserRepository.fs" />
+    <Compile Include="ISessionRepository.fs" />
+    <Compile Include="ISessionTokenService.fs" />
+    <Compile Include="IAuthenticationService.fs" />
+    <Compile Include="IUserService.fs" />
+    <Compile Include="UserServiceImpl.fs" />
+    <Compile Include="SessionTokenServiceImpl.fs" />
+    <Compile Include="IPeriodicWork.fs" />
+    <Compile Include="SessionsPeriodicWorkImpl.fs" />
+    <Compile Include="AuthenticationServiceImpl.fs" />
+    <Compile Include="AuthenticationController.fs" />
+    <Compile Include="FakeSessionRepositoryImpl.fs" />
+    <Compile Include="FakeUserRepositoryImpl.fs" />
+  </ItemGroup>
+</Project>
